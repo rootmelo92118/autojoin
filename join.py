@@ -13,7 +13,6 @@ print("My MID : " + MySelf.mid)
 def NOTIFIED_INVITE_INTO_GROUP(op):
     try:
         client.acceptGroupInvitation(op.param1)
-        client.leaveGroup(op.param1)
     except Exception as e:
         print(e)
         print("\n\nNOTIFIED_INVITE_INTO_GROUP\n\n")
