@@ -1,4 +1,5 @@
-from linepy import *
+from Linephu.linepy import *
+from Linephu.akad.ttypes import *
 
 
 client = LINE()
